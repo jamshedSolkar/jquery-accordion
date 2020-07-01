@@ -1,1 +1,1 @@
-# jquery-accordion
+# jquery-tuts
