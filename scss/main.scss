@@ -73,27 +73,28 @@ body {
       transform: translateY(-50%) rotate(45deg);
     }
 
-    button {
-      cursor: pointer;
-      background: green;
-      color: white;
-      text-transform: uppercase;
-      padding: 5px 10px;
-      border: none;
-      outline: none;
-      box-shadow: none;
-      font-size: 12px;
-      font-weight: 500;
-      font-family: 'Roboto', sans-serif;
-      position: absolute;
-      left: auto;
-      right: 40px;
-      top: 50%;
-      transform: translateY(-50%);
-    }
   }
 
   &__body {
     display: none;
+  }
+
+  &__button {
+    cursor: pointer;
+    background: green;
+    color: white;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    left: auto;
+    right: 40px;
+    top: 50%;
+    transform: translateY(-50%);
   }
 }
