@@ -1,1 +1,3 @@
 # jquery-tuts
+
+Customized Accordion
