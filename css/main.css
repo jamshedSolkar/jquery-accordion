@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.question {
+  font-size: 12px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.accordion__wrap {
+  padding: 0 10px;
+}
+.accordion__box {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.accordion__box:not(:last-child) {
+  margin-bottom: 20px;
+}
+.accordion__box.active .accordion__head::after {
+  transform: translateY(-50%) rotate(225deg);
+}
+.accordion__box.active .accordion__body {
+  display: block;
+}
+.accordion__head, .accordion__body {
+  padding: 10px;
+}
+.accordion__head {
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+.accordion__head::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  left: auto;
+  right: 10px;
+  top: 50%;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  transition: transform 0.5s ease-in-out;
+  transform: translateY(-50%) rotate(45deg);
+}
+.accordion__head button {
+  cursor: pointer;
+  background: green;
+  color: white;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  left: auto;
+  right: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.accordion__body {
+  display: none;
+}
+
+/*# sourceMappingURL=main.css.map */
