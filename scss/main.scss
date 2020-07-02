@@ -17,6 +17,7 @@ body {
   padding: 10px;
   margin-bottom: 10px;
   background: rgba(black, .05);
+
 }
 
 
@@ -97,4 +98,20 @@ body {
     top: 50%;
     transform: translateY(-50%);
   }
+}
+
+.mouseCord-box {
+  width: 100px;
+  height: 100px;
+  background: #800000;
+  font-weight: 700;
+  color: yellow;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }

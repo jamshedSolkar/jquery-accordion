@@ -56,7 +56,10 @@ body {
   transition: transform 0.5s ease-in-out;
   transform: translateY(-50%) rotate(45deg);
 }
-.accordion__head button {
+.accordion__body {
+  display: none;
+}
+.accordion__button {
   cursor: pointer;
   background: green;
   color: white;
@@ -74,8 +77,20 @@ body {
   top: 50%;
   transform: translateY(-50%);
 }
-.accordion__body {
-  display: none;
+
+.mouseCord-box {
+  width: 100px;
+  height: 100px;
+  background: #800000;
+  font-weight: 700;
+  color: yellow;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=main.css.map */
