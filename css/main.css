@@ -91,6 +91,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: left 1s linear, top 1s linear;
 }
 
 /*# sourceMappingURL=main.css.map */
